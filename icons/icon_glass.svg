@@ -1,0 +1,82 @@
+<svg width="1024" height="1024" viewBox="0 0 680 680" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g-wallpaper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a3a5c"/>
+      <stop offset="40%" stop-color="#2d1b6e"/>
+      <stop offset="100%" stop-color="#0f4c3a"/>
+    </linearGradient>
+    <linearGradient id="g-glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.14"/>
+    </linearGradient>
+    <linearGradient id="g-tab" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.12"/>
+    </linearGradient>
+    <linearGradient id="g-shine-top" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="g-accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#67e8f9"/>
+    </linearGradient>
+    <filter id="g-blur"><feGaussianBlur stdDeviation="14"/></filter>
+    <clipPath id="g-clip"><rect x="40" y="40" width="600" height="600" rx="130"/></clipPath>
+    <clipPath id="g-folder-clip"><rect x="130" y="225" width="420" height="335" rx="28"/></clipPath>
+  </defs>
+  <rect x="40" y="40" width="600" height="600" rx="130" fill="url(#g-wallpaper)"/>
+  <!-- Color blobs para refracción -->
+  <ellipse cx="260" cy="350" rx="140" ry="110" fill="#7c3aed" opacity="0.40" filter="url(#g-blur)"/>
+  <ellipse cx="460" cy="430" rx="120" ry="100" fill="#0891b2" opacity="0.35" filter="url(#g-blur)"/>
+  <ellipse cx="340" cy="510" rx="110" ry="90" fill="#059669" opacity="0.30" filter="url(#g-blur)"/>
+  <ellipse cx="200" cy="200" rx="80" ry="60" fill="#db2777" opacity="0.20" filter="url(#g-blur)"/>
+  <!-- Carpeta glass -->
+  <rect x="130" y="270" width="420" height="290" rx="28" fill="url(#g-glass)" stroke="rgba(255,255,255,0.35)" stroke-width="1.2"/>
+  <path d="M130 285 L130 240 Q130 225 145 225 L285 225 Q305 225 318 240 L340 270 L130 270 Z" fill="url(#g-tab)" stroke="rgba(255,255,255,0.35)" stroke-width="1.2"/>
+  <path d="M135 240 Q135 230 148 230 L282 230 Q298 230 310 243 L328 265 L138 265 L135 250 Z" fill="url(#g-shine-top)" opacity="0.6"/>
+  <line x1="130" y1="320" x2="550" y2="320" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <rect x="130" y="270" width="420" height="60" rx="8" fill="url(#g-shine-top)" opacity="0.25" clip-path="url(#g-folder-clip)"/>
+  <!-- Grid fila 1 -->
+  <rect x="165" y="340" width="72" height="54" rx="10" fill="rgba(52,199,89,0.18)" stroke="rgba(52,199,89,0.5)" stroke-width="1"/>
+  <circle cx="181" cy="356" r="5" fill="#34c759"/>
+  <path d="M165 378 L183 363 L200 374 L212 366 L237 378 Z" fill="#34c759" opacity="0.6"/>
+  <rect x="255" y="340" width="72" height="54" rx="10" fill="rgba(79,195,247,0.15)" stroke="rgba(79,195,247,0.45)" stroke-width="1"/>
+  <line x1="265" y1="355" x2="317" y2="355" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+  <line x1="265" y1="363" x2="317" y2="363" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <line x1="265" y1="371" x2="293" y2="371" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+  <rect x="345" y="340" width="72" height="54" rx="10" fill="rgba(255,69,58,0.15)" stroke="rgba(255,69,58,0.45)" stroke-width="1"/>
+  <polygon points="361,348 361,381 394,364" fill="#ff453a" opacity="0.9"/>
+  <rect x="435" y="340" width="72" height="54" rx="10" fill="rgba(255,149,0,0.15)" stroke="rgba(255,149,0,0.45)" stroke-width="1"/>
+  <path d="M452 366 Q458 352 463 366 Q468 380 474 366 Q479 352 485 366" fill="none" stroke="#ff9500" stroke-width="2" stroke-linecap="round"/>
+  <!-- Grid fila 2 -->
+  <rect x="165" y="410" width="72" height="54" rx="10" fill="rgba(90,200,250,0.15)" stroke="rgba(90,200,250,0.45)" stroke-width="1"/>
+  <text x="176" y="426" font-size="13" fill="#67e8f9" font-family="monospace">&lt;/&gt;</text>
+  <rect x="255" y="410" width="72" height="54" rx="10" fill="rgba(167,139,250,0.18)" stroke="rgba(167,139,250,0.45)" stroke-width="1"/>
+  <rect x="267" y="420" width="14" height="14" rx="3" fill="#a78bfa"/>
+  <rect x="285" y="420" width="14" height="14" rx="3" fill="#a78bfa" opacity="0.6"/>
+  <rect x="267" y="438" width="14" height="8" rx="2" fill="#a78bfa" opacity="0.4"/>
+  <rect x="285" y="438" width="14" height="8" rx="2" fill="#a78bfa" opacity="0.3"/>
+  <rect x="345" y="410" width="72" height="54" rx="10" fill="rgba(255,214,10,0.15)" stroke="rgba(255,214,10,0.40)" stroke-width="1"/>
+  <rect x="361" y="418" width="26" height="30" rx="4" fill="none" stroke="#ffd60a" stroke-width="1.5"/>
+  <line x1="361" y1="426" x2="387" y2="426" stroke="#ffd60a" stroke-width="1.5"/>
+  <line x1="361" y1="433" x2="387" y2="433" stroke="#ffd60a" stroke-width="1" opacity="0.5"/>
+  <rect x="435" y="410" width="72" height="54" rx="10" fill="rgba(255,45,85,0.15)" stroke="rgba(255,45,85,0.45)" stroke-width="1"/>
+  <text x="447" y="448" font-size="26" fill="#ff6b9d" font-family="Georgia,serif" font-weight="bold">A</text>
+  <!-- Grid fila 3 -->
+  <rect x="165" y="480" width="72" height="54" rx="10" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <rect x="255" y="480" width="72" height="54" rx="10" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <!-- Flecha -->
+  <line x1="340" y1="108" x2="340" y2="195" stroke="url(#g-accent)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M320 180 L340 205 L360 180" fill="none" stroke="url(#g-accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Círculo glass -->
+  <circle cx="340" cy="96" r="32" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.5)" stroke-width="1.2"/>
+  <ellipse cx="334" cy="84" rx="14" ry="8" fill="rgba(255,255,255,0.4)"/>
+  <path d="M326 100 Q326 88 338 88 Q342 80 352 84 Q360 80 362 90 Q368 90 368 98 Q368 105 360 105 L328 105 Q320 105 326 100 Z" fill="none" stroke="rgba(255,255,255,0.75)" stroke-width="1.2"/>
+  <line x1="340" y1="95" x2="340" y2="112" stroke="#67e8f9" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M333 106 L340 113 L347 106" fill="none" stroke="#67e8f9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Bordes -->
+  <rect x="40" y="40" width="600" height="600" rx="130" fill="none" stroke="rgba(255,255,255,0.30)" stroke-width="1.5"/>
+  <rect x="41" y="41" width="598" height="200" rx="128" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1" clip-path="url(#g-clip)"/>
+</svg>
